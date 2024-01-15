@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://duuqdnt7xppkc"]
+
+[ext_resource type="Script" path="res://src/BaseEnemy.gd" id="1_1du5a"]
+[ext_resource type="Texture2D" uid="uid://psc1xopuq6kf" path="res://Sprites/CrawlingDragon.png" id="2_cy16d"]
+
+[resource]
+script = ExtResource("1_1du5a")
+name = "Crawling Dragon"
+texture = ExtResource("2_cy16d")
+max_hp = 80
+hp = 80
+dmg = 20
